@@ -1,0 +1,33 @@
+.login-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* 100% del alto de la ventana */
+    background-image: url('fondoLogin.jpg');
+    background-size: cover; /* Cubrir todo el contenedor */
+    background-position: center; /* Centrar la imagen */
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+  }
+  
+  ion-item {
+    width: 100%;
+    max-width: 400px;
+    margin-bottom: 15px;
+  }
+  
+  ion-button {
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  ion-content {
+    --padding-start: 0;
+    --padding-end: 0;
+    --padding-top: 0;
+    --padding-bottom: 0;
+  }
+  
