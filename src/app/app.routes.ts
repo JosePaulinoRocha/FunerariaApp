@@ -26,4 +26,9 @@ export const routes: Routes = [
     loadComponent: () => import('./pages/gallery/gallery.component').then((m) => m.GalleryComponent),
     canActivate: [AuthGuard],
   },
+  {
+    path: 'usuarios',
+    loadComponent: () => import('./pages/usuarios/usuarios.component').then((m) => m.UsuariosComponent),
+    canActivate: [AuthGuard],
+  },
 ];
