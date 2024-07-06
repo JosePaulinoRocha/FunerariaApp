@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { IonicModule, MenuController } from "@ionic/angular";
 import { RouterModule, Router } from '@angular/router';
-import { home, analytics, images, personCircle, person, mail, call, shieldCheckmark, addCircleOutline, close, accessibility, logOut } from "ionicons/icons";
+import { calendar, layers, pricetag, pricetags, clipboard, cube, construct, wallet, calendarClear, personAdd, refresh, chatboxEllipses, business, home, analytics, images, personCircle, person, mail, call, shieldCheckmark, addCircleOutline, close, accessibility, logOut, document, cash, checkmarkDone, time, alertCircle, warning, trash, create, cashOutline, peopleOutline } from "ionicons/icons";
 import { addIcons } from 'ionicons';
 
 @Component({
@@ -12,7 +12,13 @@ import { addIcons } from 'ionicons';
 })
 export class AppComponent {
   constructor(private menu: MenuController, private router: Router) {
-    addIcons({ home, analytics, images, personCircle, person, mail, call, shieldCheckmark, addCircleOutline, close, accessibility, logOut })
+    addIcons({ 
+      home, analytics, images, personCircle, person, mail, call, shieldCheckmark, 
+      addCircleOutline, close, accessibility, logOut, document, cash, checkmarkDone, 
+      time, alertCircle, warning, trash, create, calendar, business, layers, pricetag, 
+      pricetags, clipboard, cube, construct, wallet, calendarClear, personAdd, refresh, 
+      chatboxEllipses, cashOutline, peopleOutline
+    });
   }
 
   logout() {
